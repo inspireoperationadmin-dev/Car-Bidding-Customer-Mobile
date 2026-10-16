@@ -1,0 +1,9 @@
+{
+  "name": "MyMobileApp",
+  "displayName": "MyMobileApp",
+  "expo": {
+    "extra": {
+      "EXPO_PUBLIC_STRIPE_PUBLISHABLE_KEY": "pk_test_51ScX3HDGpbPUUWdt9vjOeQvrbxSTWNBnYslgDhz2w6kkvvaktSF58lozsvdcxqZaznliwdkVirEn8IFMwQGDW0vd00WrzCTJlE"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+buildscript {
+    ext {
+        buildToolsVersion = "36.0.0"
+        minSdkVersion = 24
+        compileSdkVersion = 36
+        targetSdkVersion = 36
+        ndkVersion = "27.1.12297006"
+        kotlinVersion = "2.1.20"
+    }
+    repositories {
+        google()
+        mavenCentral()
+
+        // ✅ Mapbox Maven repo (buildscript scope - safe to include)
+        maven {
+            url "https://api.mapbox.com/downloads/v2/releases/maven"
+            authentication { basic(BasicAuthentication) }
+            credentials {
+                username = "mapbox"
+                // Reads token from gradle.properties
+                password = project.findProperty("MAPBOX_DOWNLOADS_TOKEN") ?: ""
+            }
+        }
+    }
+    dependencies {
+        classpath("com.android.tools.build:gradle")
+        classpath("com.facebook.react:react-native-gradle-plugin")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin")
+    }
+}
+
+// ✅ IMPORTANT: rnmapbox_maps dependencies needs this too
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+
+        // ✅ Mapbox Maven repo (Required)
+        maven {
+            url "https://api.mapbox.com/downloads/v2/releases/maven"
+            authentication { basic(BasicAuthentication) }
+            credentials {
+                username = "mapbox"
+                password = project.findProperty("MAPBOX_DOWNLOADS_TOKEN") ?: ""
+            }
+        }
+    }
+}
+
+subprojects {
+    def archs = rootProject.findProperty("reactNativeArchitectures")
+    if (archs) {
+        project.ext.set("reactNativeArchitectures", archs)
+    }
+}
+
+apply plugin: "com.facebook.react.rootproject"
+

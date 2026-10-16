@@ -1,0 +1,135 @@
+export const colors = {
+  primary: '#7C3AED',            // Deep violet
+  secondaryButton: '#EC4899',    // Pink accent
+  SecondaryButton: '#EC4899',    // Backward-compatible alias
+  primaryLegacy: '#6C63FF',
+  tabInactive: '#B0B0B0',
+  iosBlue: '#007AFF',
+
+  background: '#EEE8FF',         // Soft lavender
+  card: 'rgba(255,255,255,0.88)',
+  surface: '#FFFFFF',
+  surfaceMuted: '#F3F4F6',
+  surfaceSoft: '#F9FAFB',
+  appBackgroundSoft: '#F2F5F8',
+  appBackgroundGray: '#F7F7F7',
+  appBackgroundLight: '#F8F9FA',
+  appBackgroundSlate: '#F6F7FB',
+  neutralSoftBlue: '#EEF2FF',
+  neutralInputGray: '#F0F2F5',
+  warningSoft: '#FFF4E6',
+  successSoftTint: '#E8FFF0',
+  blueSoftTint: '#F0F4FF',
+  redSoftTint: '#FFEAEA',
+  successSurface: '#E8F5E9',
+  failureSurface: '#FDECEA',
+
+  text: '#1E1B4B',               // Deep indigo
+  textStrong: '#111827',
+  textSubtle: '#374151',
+  textMutedDark: '#4B5563',
+  textMedium: '#444444',
+  textBody: '#555555',
+  textDark: '#333333',
+  slateText: '#475569',
+  muted: '#6B7280',
+  title: '#1E1B4B',
+  border: 'rgba(139,92,246,0.2)',
+  borderLight: '#E5E7EB',
+  borderSoft: '#EEF2F7',
+  borderInput: '#E6E8F0',
+  borderMuted: '#CCCCCC',
+  borderSoftDanger: '#FCA5A5',
+  borderDangerLight: '#FECACA',
+  neutralLine: '#EEEEEE',
+  neutralLineSoft: '#EEEEEE',
+
+  error: '#EF4444',
+  errorDark: '#DC2626',
+  errorDeep: '#B91C1C',
+  errorSoft: '#FEF2F2',
+  white: '#FFFFFF',
+  black: '#000000',
+  iconPlaceholder: '#D1D5DB',
+  imagePlaceholder: '#EEEEEE',
+
+  // Glow & accent
+  glowPurple: '#8B5CF6',
+  accentLight: '#EDE9FF',
+  accentMid: '#DDD6FF',
+
+  gradHeaderStart: '#EEE8FF',
+  gradHeaderMid: '#E6DEFF',
+  gradHeaderEnd: '#F4F0FF',
+
+  gradBtnStart: '#9B59FF',
+  gradBtnMid: '#7C3AED',
+  gradBtnEnd: '#5B21B6',
+
+  mutedText: '#9CA3AF',
+  inputBackground: '#F5F3FF',
+  success: '#22C55E',
+  successStrong: '#16A34A',
+  successDark: '#059669',
+  info: '#2563EB',
+  infoDark: '#1D4ED8',
+  infoSoft: '#EFF6FF',
+  infoBorder: '#BFDBFE',
+  infoText: '#3B82F6',
+  infoTextDark: '#1E40AF',
+  successForest: '#2E7D32',
+  failureRed: '#D32F2F',
+  amberDark: '#D97706',
+  indigoDark: '#3730A3',
+  violetDark: '#6D28D9',
+  violetMid: '#8B5CF6',
+  violetLight: '#A78BFA',
+  violetSoft: '#C4B5FD',
+  violetPale: '#D8B4FE',
+  violetBright: '#C084FC',
+  sapphire: '#5B21B6',
+  azure: '#1E90FF',
+  warning: '#F59E0B',
+  focusRing: '#1F2937',
+  rippleDark10: '#00000010',
+  overlay: 'rgba(0,0,0,0.25)',
+  overlayStrong: 'rgba(0,0,0,0.85)',
+  overlayWhite16: 'rgba(255,255,255,0.16)',
+  overlayWhite20: 'rgba(255,255,255,0.2)',
+  overlayWhite60: 'rgba(255,255,255,0.6)',
+  overlayWhite80: 'rgba(255,255,255,0.8)',
+  overlayWhite85: 'rgba(255,255,255,0.85)',
+  overlayWhite88: 'rgba(255,255,255,0.88)',
+  overlayWhite90: 'rgba(255,255,255,0.9)',
+  overlayLight: 'rgba(255,255,255,0.92)',
+  overlayLightStrong: 'rgba(255,255,255,0.95)',
+  overlayLightMax: 'rgba(255,255,255,0.96)',
+  primaryTint06Legacy: 'rgba(108, 99, 255, 0.06)',
+  primaryTint10Legacy: 'rgba(108, 99, 255, 0.1)',
+  primaryTint08Legacy: 'rgba(108,99,255,0.08)',
+  primaryTint10: 'rgba(124,58,237,0.1)',
+  purpleAlpha10: 'rgba(139,92,246,0.1)',
+  purpleAlpha12: 'rgba(139,92,246,0.12)',
+  purpleAlpha18: 'rgba(139,92,246,0.18)',
+  purpleAlpha22: 'rgba(139,92,246,0.22)',
+  purpleAlpha25: 'rgba(139,92,246,0.25)',
+  purpleAlpha35: 'rgba(139,92,246,0.35)',
+  purpleAlpha50: 'rgba(139,92,246,0.5)',
+  accentLightAlpha75: 'rgba(237,233,255,0.75)',
+  errorAlpha20: 'rgba(239,68,68,0.2)',
+  redAlpha10: 'rgba(255,77,77,0.1)',
+  neutralBlueAlpha50: 'rgba(236, 242, 255,0.5)',
+  successSoft: '#ECFDF5',
+  mechanicPalette: [
+    '#6366F1', // indigo
+    '#EC4899', // pink
+    '#F59E0B', // amber
+    '#10B981', // emerald
+    '#3B82F6', // blue
+    '#EF4444', // red
+    '#8B5CF6', // violet
+    '#14B8A6', // teal
+    '#F97316', // orange
+    '#06B6D4', // cyan
+  ],
+};

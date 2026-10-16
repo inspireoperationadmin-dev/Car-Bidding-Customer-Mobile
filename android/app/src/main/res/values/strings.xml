@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MyMobileApp</string>
+    <string name="mapbox_access_token">YOUR_MAPBOX_PUBLIC_TOKEN</string>
+</resources>
